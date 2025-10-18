@@ -13,11 +13,13 @@ condiciones=(con1, con2, con3, con4, con5)
 print(condiciones.count(True)==5) 
 """
 
+
 """#ejercicio 2 - dragon durmiendo
 
 cadena=input()
 print(cadena.lower().count("z"))
 """
+
 
 """#ejercicio 3 - contraseña OOF
 
@@ -30,6 +32,7 @@ impre_b = len(text2)//num
 
 print(f"{text1[:impre_a]}{text2[-impre_b:]}")
 """
+
 
 """#ejercicio 5 - Reporte de Alvin
 
@@ -48,6 +51,7 @@ print(f"Diferencia: {max(listado)-min(listado):.2f}")
 print(f"Suma: {(nota1+nota2+nota3+nota4+nota5+nota6):.2f}")
 print(f"Promedio: {(nota1+nota2+nota3+nota4+nota5+nota6)/6:.2f}")
 """
+
 
 """#ejercicio 6 - El jurado de la copa
 
@@ -68,6 +72,7 @@ suma= (pun1*per1)+(pun2*per2)+(pun3*per3)+(pun4*per4)+(pun5*per5)
 print(f"{suma:.0f}")
 """
 
+
 """#ejercicio 7 - Identificador C3
 
 nombre=input()
@@ -80,6 +85,7 @@ print(f"Pin: {pin}")
 print(f"ID: C3-{nick}-{pin}")
 """
 
+
 """#ejercicio 8 - Formato de fechas
 
 fecha=input()
@@ -88,6 +94,7 @@ fecha=input()
 #contas el orden de cada uno de 0 en adelante para saber que poner entre los corchetes "[]"
 print(f"{fecha[6:]}/{fecha[3:5]}/{fecha[:2]}")
 """
+
 
 """#ejercicio 9 - La cena de Alvin
 
@@ -100,6 +107,7 @@ orden2=int(input())
 print(f"El pedido de Alvin es: {platos[orden1-1]} con {complementos[orden2-1]}") 
                                 # se resta uno para que el numero ingresado sea igual al de las ordenes
 """
+
 
 """#ejercicio 10 - El mayor hater de los bucles
 
